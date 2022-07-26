@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 768px) {
+  header {
+    border: red 2px solid;
+    box-sizing: border-box;
+    width: 40%;
+    background-image: url(../images/bg.jpg);
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .mainHeaderLink a {
+    border: green 2px solid;
+    margin: 50%;
+  }
+
+  header img {
+    border: red 2px solid;
+    height: 25%;
+    width: 35%;
+    position: absolute;
+    top: 12%;
+    left: 59%;
+    border-radius: 100%;
+  }
+
+  header h1 {
+    font-size: 32px;
+    text-align: right;
+    position: absolute;
+    left: 18%;
+    top: 38%;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  #nome {
+    color: white;
+  }
+
+  header h3 {
+    text-align: right;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: gray;
+    position: absolute;
+    width: 400px;
+    top: 57%;
+    left: 24%;
+  }
+
+  header a {
+    color: gray;
+  }
+
+  main {
+    width: 50%;
+    float: right;
+  }
+
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    top: 90%;
+    right: 65%;
+    color: gray;
+    font-size: 18px;
+    text-align: right;
+  }
+
+  footer img {
+    width: 8%;
+    opacity: 0.4;
+  }
+
+  footer a {
+    color: white;
+  }
+}

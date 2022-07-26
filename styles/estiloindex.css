@@ -1,0 +1,179 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-header {
+  width: 35%;
+  position: fixed;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  padding: 7% 3% 0% 10%;
+  box-sizing: border-box;
+}
+
+.main-header a {
+  text-decoration: none;
+  color: rgb(146, 141, 141);
+}
+
+.main-header-link img {
+  border-radius: 50%;
+  height: 30%;
+  width: auto;
+  margin-bottom: 15%;
+}
+
+.main-header-text {
+  padding: 10% 5% 0% 0%;
+  width: 100%;
+  text-align: right;
+}
+
+.main-header-text h1 {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.424);
+}
+
+#nome {
+  color: white;
+}
+
+.main-header-text h3 {
+  margin-top: 5%;
+  color: rgb(146, 141, 141);
+  text-decoration: none;
+}
+
+.header-footer {
+  margin-top: 40%;
+  text-align: right;
+  color: rgb(146, 141, 141);
+}
+
+@media (min-width: 1920px) {
+  .header-footer {
+    margin-top: 73%;
+    text-align: right;
+    color: rgb(146, 141, 141);
+  }
+}
+
+.header-footer img {
+  width: 12%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.main-content {
+  position: absolute;
+  width: 64%;
+  left: 36%;
+  padding: 10% 5%;
+  box-sizing: border-box;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.main-content h2 {
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 15%;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 7px;
+  border: 1px solid rgba(51, 51, 51, 0.518);
+  background-color: white;
+  padding: 0% 0 1%;
+  box-sizing: border-box;
+}
+
+.btn a {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 6%;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+.btn a:hover {
+  color: white;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 40%;
+  position: relative;
+}
+
+.card p {
+  display: block;
+  color: rgba(255, 255, 255, 0);
+  height: 94%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 25%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#card1,
+#card3,
+#card5 {
+  margin-right: 6%;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/*inserir aqui animacao dos cards*/
+.card:hover {
+  transition: all 1s ease-in-out;
+  transform: translate(0px, -50px);
+  height: auto;
+}
+
+.card p:hover {
+  transition-timing-function: ease-in-out;
+  font-weight: 700;
+  font-size: 20px;
+  transition: background-color 2s;
+  background-color: rgba(51, 51, 51, 0.455);
+  color: white;
+  border-radius: 15px;
+}
+
+#botao {
+  width: 25%;
+  color: white;
+  background-color: rgb(60, 169, 73);
+  height: 42px;
+  border-radius: 3%;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#botao:hover {
+  background-color: rgb(26, 75, 32);
+}
