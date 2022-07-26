@@ -1,7 +1,10 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
+  color: rgb(100, 96, 96);
+  font-display: block;
+  font-stretch: extra-expanded;
 }
 
 .main-header {
@@ -46,7 +49,6 @@
 .main-header-text h3 {
   margin-top: 5%;
   color: rgb(146, 141, 141);
-  text-decoration: none;
 }
 
 .header-footer {
@@ -73,7 +75,7 @@
   position: absolute;
   width: 64%;
   left: 36%;
-  padding: 10% 5%;
+  padding: 5% 2%;
   box-sizing: border-box;
   line-height: 30px;
   font-size: 15px;
@@ -81,7 +83,6 @@
 
 .main-content h2 {
   margin-bottom: 5%;
-  text-transform: uppercase;
 }
 
 .btn {
@@ -91,14 +92,13 @@
   border-radius: 7px;
   border: 1px solid rgba(51, 51, 51, 0.518);
   background-color: white;
-  padding: 0% 0 1%;
+  line-height: 40px;
   box-sizing: border-box;
 }
 
 .btn a {
   box-sizing: border-box;
   display: inline-block;
-  padding-top: 6%;
   width: 100%;
   height: 100%;
   text-decoration: none;
@@ -124,7 +124,6 @@
 }
 
 .card p {
-  display: block;
   color: rgba(255, 255, 255, 0);
   height: 94%;
   width: 100%;
@@ -176,4 +175,105 @@
 
 #botao:hover {
   background-color: rgb(26, 75, 32);
+}
+
+.formularios {
+  width: 100%;
+  clear: both;
+}
+
+#nome2 {
+  float: left;
+  padding: 0px;
+  width: 80%;
+  clear: both;
+}
+
+#nome2 form input {
+  background-color: rgba(133, 116, 116, 0.337);
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  line-height: 50px;
+  text-indent: 10px;
+}
+
+#nomeform,
+#emailform {
+  width: 49%;
+}
+
+#nomeform {
+  float: left;
+}
+
+#emailform {
+  float: right;
+}
+#dados {
+  width: 19%;
+  float: right;
+}
+#texto {
+  background-color: rgba(133, 116, 116, 0.337);
+  width: 80%;
+  height: 150px;
+  border-radius: 5px;
+  border: none;
+  line-height: 50px;
+  text-indent: 10px;
+}
+
+code {
+  background-color: rgba(169, 163, 163, 0.443);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.elements a {
+  text-decoration: underline;
+  color: rgb(75, 140, 119);
+}
+#titulos h2 {
+  margin: 0%;
+}
+#titulos h1 {
+  font-size: 32px;
+}
+
+.cite {
+  border-left: solid 3px rgba(72, 69, 69, 0.459);
+  margin: 0%;
+}
+
+.pre {
+  width: 100%;
+  clear: both;
+}
+
+.unordened {
+  float: right;
+  width: 50%;
+}
+.ordened {
+  width: 49%;
+}
+
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+#topotabela {
+  background-color: rgba(84, 78, 78, 0.527);
+  border: none;
+}
+
+.cinza {
+  background-color: rgba(193, 185, 185, 0.544);
 }
